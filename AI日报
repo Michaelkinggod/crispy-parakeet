@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日 AI 热点日报</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header {
+      background: #007aff;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .news-item {
+      border-bottom: 1px solid #eee;
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .news-item:last-child {
+      border-bottom: none;
+    }
+    .news-title {
+      font-size: 18px;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #007aff;
+    }
+    .news-meta {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+    .news-summary {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .news-link {
+      text-decoration: none;
+      font-size: 14px;
+      color: #007aff;
+      align-self: flex-end;
+    }
+    /* 图片样式，如有图片可替换 src 属性 */
+    .news-thumb {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 640px) {
+      .container {
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>每日 AI 热点日报</h1>
+      <p>精选最新热门 AI 新闻</p>
+    </header>
+    <!-- 新闻项 1 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=DeepSeek+vs+ChatGPT" alt="DeepSeek对决ChatGPT">
+      <div class="news-title">DeepSeek国际象棋对决ChatGPT：奇招逆袭</div>
+      <div class="news-meta">22 分钟前 · AIbase</div>
+      <div class="news-summary">
+        在国际象棋赛场上，DeepSeek与ChatGPT展开激烈对决，DeepSeek凭借“奇招”展现出超群策略，引发网友热议。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 2 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B0%94%E5%90%A6%E8%AE%A4%E6%8A%80%E6%9C%AF" alt="阿里巴巴否认投资DeepSeek">
+      <div class="news-title">阿里巴巴否认10亿美元投资DeepSeek传闻</div>
+      <div class="news-meta">2 小时前 · AIbase</div>
+      <div class="news-summary">
+        针对外界传言阿里巴巴将投资 DeepSeek 10 亿美元，相关负责人在社交平台上澄清，表示消息纯属虚假传闻。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 3 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=PromptLayer" alt="PromptLayer工具">
+      <div class="news-title">PromptLayer：非技术用户的AI应用开发新工具</div>
+      <div class="news-meta">38 分钟前 · AIbase</div>
+      <div class="news-summary">
+        随着生成式AI的普及，PromptLayer推出了一款便捷工具，帮助非技术用户轻松构建和管理 AI 提示，为开发应用带来新思路。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 4 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=DeepSeek+%E7%83%AD%E6%B4%9B" alt="DeepSeek安装包生意">
+      <div class="news-title">DeepSeek热潮下的灰色生意：安装包月入百万</div>
+      <div class="news-meta">38 分钟前 · AIbase</div>
+      <div class="news-summary">
+        利用用户对DeepSeek关注热度，不法商家贩卖安装包和变现课程，据称月收入高达百万，引发行业监管关注。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 5 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=%E9%98%BF%E8%81%94%E9%85%8D%E4%B8%8E%E6%B3%95%E5%9B%BD%E8%81%94%E6%94%BF" alt="欧洲最大AI园区">
+      <div class="news-title">阿联酋与法国联手打造欧洲最大AI园区</div>
+      <div class="news-meta">42 分钟前 · AIbase</div>
+      <div class="news-summary">
+        阿联酋与法国达成协议，共同投资约300亿至500亿欧元建设人工智能园区，旨在引领欧洲AI产业新潮流。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 6 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=DeepMind" alt="DeepMind新系统">
+      <div class="news-title">DeepMind新AI系统超越国际数学奥林匹克金牌选手</div>
+      <div class="news-meta">16 分钟前 · AIbase</div>
+      <div class="news-summary">
+        谷歌 DeepMind 最新推出的 AI 系统在解决复杂数学问题上表现卓越，其解题能力甚至超越了国际数学奥林匹克金牌得主。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 7 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=%E8%8B%B9%E6%9E%9C+ELEGNT" alt="苹果ELEGNT框架">
+      <div class="news-title">苹果ELEGNT框架：让机器人更有温度</div>
+      <div class="news-meta">54 分钟前 · AIbase</div>
+      <div class="news-summary">
+        苹果正在研发一项名为ELEGNT的新框架，旨在让机器人在执行任务时展现更自然、富有表现力的动作，改善人机互动体验。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 8 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=OpenAI+o3-mini" alt="OpenAI更新o3-mini">
+      <div class="news-title">OpenAI更新o3-mini模型 展示全新“思维链”过程</div>
+      <div class="news-meta">约1 小时前 · AIbase</div>
+      <div class="news-summary">
+        为应对竞争压力，OpenAI最新版本的 o3-mini 模型公开展示了回答问题前的推理过程，即“思维链”，提高了模型透明度。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 9 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=OpenAI+Munich" alt="OpenAI德国新办公室">
+      <div class="news-title">OpenAI将于德国慕尼黑设立新办公室</div>
+      <div class="news-meta">2 小时前 · AIbase</div>
+      <div class="news-summary">
+        OpenAI宣布将在德国慕尼黑开设分公司，借助当地技术优势及严格的数据保护，为欧洲用户提供更优质的服务。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+    <!-- 新闻项 10 -->
+    <div class="news-item">
+      <img class="news-thumb" src="https://via.placeholder.com/600x300?text=%E6%8A%95%E8%B5%84%E4%BA%BA%E7%A7%BB%E5%90%8D" alt="朱啸虎看好DeepSeek">
+      <div class="news-title">投资人朱啸虎：DeepSeek将彻底取代搜索</div>
+      <div class="news-meta">2 小时前 · AIbase</div>
+      <div class="news-summary">
+        投资大咖朱啸虎近日表示，凭借其低成本与高性能优势，DeepSeek有望重塑搜索引擎市场格局，彻底颠覆现有模式。
+      </div>
+      <a class="news-link" href="https://ai-bot.cn/daily-ai-news/" target="_blank">阅读全文 &raquo;</a>
+    </div>
+  </div>
+</body>
+</html>
